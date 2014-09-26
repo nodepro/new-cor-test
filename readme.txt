@@ -1,19 +1,3 @@
-=========================================
-== Spring JPetStore sample application ==
-=========================================
-
-@author Juergen Hoeller
-Based on Clinton Begin's JPetStore (http://www.ibatis.com).
-
-
-1. MOTIVATION
-
-Features a Spring-managed middle tier with iBATIS Database Layer as data access
-strategy, in combination with Spring's transaction and DAO abstractions.
-Can work with local JDBC transactions or JTA, with the latter on two databases.
-Uses the same data model and demo contents as the original JPetStore.
-See the context definitions "WEB-INF/dataAccessContext-local.xml" respectively
-"WEB-INF/dataAccessContext-jta.xml" for details.
 
 Offers two alternative web tier implementations with the same user interface:
 one based on Spring's web MVC, and one based on Struts 1.2. The latter is close
